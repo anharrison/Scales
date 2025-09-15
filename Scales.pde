@@ -1,7 +1,7 @@
 void setup(){
   frameRate(12);
   int r = (int)(Math.random()*15);
-  int g = (int)(Math.random()*32);
+  int g = (int)(Math.random()*82);
   int b = (int)(Math.random()*153);
   background(r,g,b);
   size(500, 500); 
@@ -20,5 +20,6 @@ void scale(int x, int y) {
  ellipse(x+10,y,20,20);
 rect(x,y-10,12,12);
 }
+
 
 
